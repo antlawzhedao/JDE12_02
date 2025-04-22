@@ -13,7 +13,7 @@ def hammer_task_0():
     return result
   
 def memberOne():
-    vowels = 'aeiou'
+    vowels = 'aeiouAEIOU'
     word_list = paragraph.split()
     vowel_word_count = 0
     for word in word_list:
