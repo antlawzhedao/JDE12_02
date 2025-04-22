@@ -13,8 +13,15 @@ def hammer_task_0():
     return result
   
 def memberOne():
-    print('hello world')
-    pass
+    vowels = 'aeiou'
+    word_list = paragraph.split()
+    vowel_word_count = 0
+    for word in word_list:
+        for char in word:
+            if char in vowels:
+                vowel_word_count = vowel_word_count + 1
+                break
+    return vowel_word_count
   
 def memberTwo():
     pass
